@@ -9,8 +9,8 @@ public class Game implements KeyListener {
     public static final int N_BLOCK_HEIGHT = 30;
     public static final int SIDE_DIM = 20;
 
-    public static final int SCREEN_WIDTH = N_BLOCK_WIDTH * SIDE_DIM + 10;
-    public static final int SCREEN_HEIGHT = N_BLOCK_HEIGHT * SIDE_DIM + 30;
+    public static final int SCREEN_WIDTH = N_BLOCK_WIDTH * SIDE_DIM + 40;
+    public static final int SCREEN_HEIGHT = N_BLOCK_HEIGHT * SIDE_DIM + 40;
 
     private State state;
 

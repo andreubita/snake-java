@@ -20,8 +20,10 @@ public class Food {
             this.y = (int) (Math.random() * Game.N_BLOCK_HEIGHT - 1);
 
             for(Rectangle rect : snakeBody)
-                if(this.x == rect.getX()
-                && this.y == rect.getY())
+                if(Math.abs(this.x - rect.getX()) < 1
+                && Math.abs(this.y - rect.getY()) < 1)
+//                if(this.x == rect.getX()
+//                && this.y == rect.getY())
                     onSnake = true;
         }
     }
